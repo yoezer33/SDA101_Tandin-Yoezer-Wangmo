@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+.navbar {
+.container {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(106, 191, 225);
+}
+.container {
+  gap: 10px; 
+  gap: 10px 20px; 
+  row-gap: 10px;
+  column-gap: 20px;
+}
+    background: #c82323;
+    color: white;
+    padding: 1rem 2rem;
+}
+
+.nav-menu {
+    /* TODO: Make this a flex container */
+    /* TODO: Remove list styles */
+    /* TODO: Add space between menu items */
+}
+
+.nav-social {
+    /* TODO: Make this a flex container */
+    /* TODO: Add space between social links */
+}
+

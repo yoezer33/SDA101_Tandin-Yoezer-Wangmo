@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Combined Strategic Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+  <style>
+    .bg-olive-600 { background-color: #8C9465; }
+    .bg-olive-700 { background-color: #6E7352; }
+    .hover\:bg-olive-700:hover { background-color: #6E7352; }
+    .bg-brown-100 { background-color: #A17F5B; }
+    .bg-brown-200 { background-color: #9B7C57; }
+  </style>
+</head>
+<body class="bg-gray-100 flex flex-col items-center">
+
+  <!-- Banner Section -->
+  <section class="bg-gray-800 rounded-lg shadow-lg max-w-4xl w-full flex flex-col items-center text-center relative p-8 my-6">
+    <div class="mb-6">
+      <div class="mb-4">
+        <span class="text-green-700 font-bold text-xl tracking-wide">A</span>
+        <span class="text-gray-100 font-semibold">COMPANY</span>
+      </div>
+      <p class="text-sm text-gray-400 mb-2">01/03</p>
+      <h1 class="text-white text-4xl font-bold leading-tight mb-4">
+        We help our clients <br />
+        set their strategic <br />
+        direction
+      </h1>
+    </div>
+    <div class="flex justify-center">
+      <img
+        src="Screenshot (75).png"
+        alt="Strategic Person"
+        class="h-64 w-[500px] object-cover rounded-lg shadow-md"
+      />
+    </div>
+    <button class="absolute left-4 top-1/2 transform -translate-y-1/2 text-white bg-black bg-opacity-30 rounded-full h-8 w-8 flex items-center justify-center">
+      &lt;
+    </button>
+    <button class="absolute right-4 top-1/2 transform -translate-y-1/2 text-white bg-black bg-opacity-30 rounded-full h-8 w-8 flex items-center justify-center">
+      &gt;
+    </button>
+  </section>
+
+  <!-- Below Section -->
+  <section class="max-w-4xl w-full px-6 mt-10">
+    <div class="text-center mb-10">
+      <h1 class="text-3xl font-bold mb-2">We'll help manage your business</h1>
+      <p class="text-gray-600 text-sm max-w-xl mx-auto">
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.
+      </p>
+      <p class="text-gray-400 text-xs mt-2">Images from Freepik</p>
+    </div>
+
+    <!-- Grid of Cards -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+      <div class="relative rounded-lg overflow-hidden shadow-lg cursor-pointer group transform transition-transform duration-300 group-hover:-translate-y-1">
+        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=400&q=80" alt="Consultations" class="w-full h-44 object-cover transition-transform duration-300 group-hover:scale-110" />
+        <div class="absolute inset-0 bg-black bg-opacity-30 flex flex-col justify-center items-center opacity-100 group-hover:opacity-90 transition-opacity duration-300">
+          <h3 class="uppercase text-white text-sm font-semibold mb-2 tracking-wide">Consultations</h3>
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-white opacity-75" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 1.343-3 3v6h6v-6c0-1.657-1.343-3-3-3zM6 14v-2a6 6 0 0112 0v2" />
+          </svg>
+        </div>
+      </div>
+      <div class="relative rounded-lg overflow-hidden shadow-lg cursor-pointer group">
+        <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=400&q=80" alt="Strategy" class="w-full h-44 object-cover transition-transform duration-300 group-hover:scale-110" />
+        <div class="absolute inset-0 bg-black bg-opacity-30 flex flex-col justify-center items-center opacity-100 group-hover:opacity-90 transition-opacity duration-300">
+          <h3 class="uppercase text-white text-sm font-semibold mb-2 tracking-wide">Strategy</h3>
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-white opacity-75" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h8M12 8v8" />
+          </svg>
+        </div>
+      </div>
+      <div class="relative rounded-lg overflow-hidden shadow-lg cursor-pointer group">
+        <img src="Screenshot (85).png" alt="Investment" class="w-full h-44 object-cover transition-transform duration-300 group-hover:scale-110" />
+        <div class="absolute inset-0 bg-black bg-opacity-30 flex flex-col justify-center items-center opacity-100 group-hover:opacity-90 transition-opacity duration-300">
+          <h3 class="uppercase text-white text-sm font-semibold mb-2 tracking-wide">Investment</h3>
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-white opacity-75" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v-3m0 0l-3 3m3-3l3 3M6 9V6a6 6 0 0112 0v3" />
+          </svg>
+        </div>
+      </div>
+      <div class="relative rounded-lg overflow-hidden shadow-lg cursor-pointer group">
+        <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=400&q=80" alt="Marketing" class="w-full h-44 object-cover transition-transform duration-300 group-hover:scale-110" />
+        <div class="absolute inset-0 bg-black bg-opacity-30 flex flex-col justify-center items-center opacity-100 group-hover:opacity-90 transition-opacity duration-300">
+          <h3 class="uppercase text-white text-sm font-semibold mb-2 tracking-wide">Marketing</h3>
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-white opacity-75" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12h3m-3 0l-4 4m4-4l-4-4M9 12H6" />
+          </svg>
+        </div>
+      </div>
+      <div class="relative rounded-lg overflow-hidden shadow-lg cursor-pointer group">
+        <img src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?auto=format&fit=crop&w=400&q=80" alt="Startups" class="w-full h-44 object-cover transition-transform duration-300 group-hover:scale-110" />
+        <div class="absolute inset-0 bg-black bg-opacity-30 flex flex-col justify-center items-center opacity-100 group-hover:opacity-90 transition-opacity duration-300">
+          <h3 class="uppercase text-white text-sm font-semibold mb-2 tracking-wide">Startups</h3>
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-white opacity-75" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v9m0 0l3-3m-3 3l-3-3m6 6h3m-3 0a9 9 0 01-9 9v-3a6 6 0 016-6z" />
+          </svg>
+        </div>
+      </div>
+      <div class="relative rounded-lg overflow-hidden shadow-lg cursor-pointer group">
+        <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=400&q=80" alt="Anti-Crisis" class="w-full h-44 object-cover transition-transform duration-300 group-hover:scale-110" />
+        <div class="absolute inset-0 bg-black bg-opacity-30 flex flex-col justify-center items-center opacity-100 group-hover:opacity-90 transition-opacity duration-300">
+          <h3 class="uppercase text-white text-sm font-semibold mb-2 tracking-wide">Anti-Crisis</h3>
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-white opacity-75" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17v-4a6 6 0 0112 0v4m-6-2a4 4 0 00-4 4h4z" />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonial Section -->
+  <section class="grid grid-cols-1 md:grid-cols-2 min-h-screen max-w-6xl w-full px-6 gap-6 my-12">
+    <div class="bg-white rounded-lg shadow-lg overflow-hidden flex relative">
+      <div class="flex items-center space-x-4 p-4 bg-white rounded shadow-lg flex-shrink-0">
+        <img src="Screenshot (77).png" alt="Client" class="w-45 h-50 object-cover rounded" />
+      </div>
+      <div class="bg-green-600 flex flex-col justify-center items-start text-left p-10 text-white flex-grow">
+        <div class="max-w-lg">
+          <h1 class="text-white text-4xl font-bold leading-tight mb-4">
+            We provide value <br />
+            of our clients<br />
+            "
+          </h1>
+          <p class="text-sm text-gray-400 mb-2">
+            The consulting firms provided exceptional service and valuable insight that significantly contributed to the success of our project. Their team demonstrated deep expertise in the field, delivering innovative solutions tailored to our specific needs.
+          </p>
+          <h2 class="text-white text-2xl font-semibold mb-4 mt-6">Nat Reynolds</h2>
+          <p class="text-gray-400 text-sm">Developer, co-founder</p>
+        </div>
+      </div>
+      <button class="absolute left-4 top-1/2 transform -translate-y-1/2 text-white bg-black bg-opacity-30 rounded-full h-8 w-8 flex items-center justify-center">
+        &lt;
+      </button>
+      <button class="absolute right-4 top-1/2 transform -translate-y-1/2 text-white bg-black bg-opacity-30 rounded-full h-8 w-8 flex items-center justify-center">
+        &gt;
+      </button>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="bg-gray-200 min-h-screen flex items-center justify-center w-full max-w-6xl p-6 my-12 rounded-lg shadow-lg overflow-hidden">
+    <div class="bg-black rounded-lg shadow-lg flex w-full max-w-full overflow-hidden">
+      <!-- FAQ Content -->
+      <div class="w-2/3 p-10 text-white">
+        <h2 class="text-4xl font-bold mb-2">FAQ</h2>
+        <p class="text-gray-300 mb-6 text-sm">
+          Sample text. Click to select the text box. Click again or double click to start editing the text. Image from Freepik
+        </p>
+        <div>
+          <div class="mb-4">
+            <button class="w-full text-left font-semibold text-lg mb-2">Am I Eligible To Sign Up To Attend?</button>
+            <p class="text-gray-400 text-sm pl-4">Answer. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id suscipit ex...</p>
+          </div>
+          <hr class="border-gray-600 mb-4" />
+          <button class="w-full text-left font-semibold text-lg mb-2">What Type Of Things Should We Build?</button>
+          <hr class="border-gray-600 mb-4" />
+          <button class="w-full text-left font-semibold text-lg mb-2">Does This Guarantee Me A Spot In The Hack?</button>
+          <hr class="border-gray-600 mb-4" />
+          <button class="w-full text-left font-semibold text-lg mb-2">What Language Or Platform Can I Use?</button>
+        </div>
+      </div>
+      <!-- Image for FAQ -->
+      <div class="w-1/3">
+        <img src="Screenshot (78).png" alt="FAQ side image" class="h-full w-full object-cover grayscale" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Case Studies & Stories Section -->
+  <section class="max-w-6xl w-full text-center my-12 p-8">
+    <h1 class="text-3xl font-bold text-gray-900 mb-2">Case studies & stories</h1>
+    <p class="text-black mb-10">
+      See how we create 360° value and help clients become the next and best versions of themselves.
+    </p>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-10">
+      <div class="relative rounded-none overflow-hidden shadow-md group">
+        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=600&q=80" alt="Project 01" class="w-full h-56 object-cover transition-transform duration-300 group-hover:scale-105" />
+        <div class="absolute bottom-0 left-10 w-full bg-green-700 bg-opacity-200 text-white p-4 text-left">
+          <h3 class="font-semibold text-lg">Project 01</h3>
+          <p class="text-sm opacity-80">Sample text. Click to select the Text Element.</p>
+        </div>
+      </div>
+      <div class="relative rounded-none overflow-hidden shadow-md group">
+        <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=600&q=80" alt="Project 02" class="w-full h-56 object-cover transition-transform duration-300 group-hover:scale-105" />
+        <div class="absolute bottom-0 left-10 w-full bg-green-700 bg-opacity-200 text-white p-4 text-left">
+          <h3 class="font-semibold text-lg">Project 02</h3>
+          <p class="text-sm opacity-80">Sample text. Click to select the Text Element.</p>
+        </div>
+      </div>
+      <div class="relative rounded-none overflow-hidden shadow-md group">
+        <img src="https://images.unsplash.com/photo-1593642634315-48f5414c3ad9?auto=format&fit=crop&w=600&q=80" alt="Project 03" class="w-full h-56 object-cover transition-transform duration-300 group-hover:scale-105" />
+        <div class="absolute bottom-0 left-10 w-full bg-green-700 bg-opacity-200 text-white p-4 text-left">
+          <h3 class="font-semibold text-lg">Project 03</h3>
+          <p class="text-sm opacity-80">Sample text. Click to select the Text Element.</p>
+        </div>
+      </div>
+      <div class="relative rounded-none overflow-hidden shadow-md group">
+        <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=600&q=80" alt="Project 04" class="w-full h-56 object-cover transition-transform duration-300 group-hover:scale-105" />
+        <div class="absolute bottom-0 left-10 w-full bg-green-700 bg-opacity-200 text-white p-4 text-left">
+          <h3 class="font-semibold text-lg">Project 04</h3>
+          <p class="text-sm opacity-80">Sample text. Click to select the Text Element.</p>
+        </div>
+      </div>
+      <div class="relative rounded-none overflow-hidden shadow-md group w-100">
+        <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=600&q=80" alt="Project 05" class="w-full h-56 object-cover transition-transform duration-300 group-hover:scale-105" />
+        <div class="absolute left-10 w-full bg-green-700 bg-opacity-200 text-white p-4 text-left bottom-0 translate-y-1/4">
+          <h3 class="font-semibold text-lg">Project 05</h3>
+          <p class="text-sm opacity-80">Sample text. Click to select the Text Element.</p>
+        </div>
+      </div>
+      <div class="relative rounded-none overflow-hidden shadow-md group">
+        <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=600&q=80" alt="Project 06" class="w-full h-56 object-cover transition-transform duration-300 group-hover:scale-105" />
+        <div class="absolute bottom-0 left-10 w-full bg-green-700 bg-opacity-200 text-white p-4 text-left">
+          <h3 class="font-semibold text-lg">Project 06</h3>
+          <p class="text-sm opacity-80">Sample text. Click to select the Text Element.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="relative w-full h-[450px] overflow-hidden">
+    <img src="Screenshot (88).png" alt="Businessman" class="object-cover w-full h-full filter brightness-75">
+    <!-- Overlay Card -->
+    <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+      <div class="bg-white bg-opacity-95 px-8 py-7 rounded-xl shadow-lg max-w-md">
+        <h2 class="text-2xl font-semibold text-gray-900 mb-3">We offer <br> comprehensive solutions for our clients</h2>
+        <a href="#" class="inline-block mt-2 px-6 py-2 bg-olive-600 text-white rounded hover:bg-olive-700 text-sm font-medium">View Recent Projects →</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Company Info Section -->
+  <section class="bg-olive-600 py-14 px-5 flex flex-col items-center w-full">
+    <div class="mb-7 flex flex-col items-center">
+      <svg height="48" width="120" class="mb-2">
+        <path d="M20 30 Q30 10 80 35 T110 30" stroke="white" stroke-width="4" fill="none"/>
+      </svg>
+      <span class="text-xl text-white tracking-wide font-semibold">COMPANY</span>
+    </div>
+    <div class="flex flex-col gap-4 items-center justify-center mb-8 w-full max-w-sm">
+      <div class="bg-olive-700 text-white rounded-full px-5 py-2 text-sm w-full text-center">2469 Schaeffer Ville, USA</div>
+      <div class="bg-olive-700 text-white rounded-full px-5 py-2 text-sm w-full text-center">contact@company.com</div>
+      <div class="bg-olive-700 text-white rounded-full px-5 py-2 text-sm w-full text-center">Monday to Friday : 9 AM - 5 PM</div>
+    </div>
+    <div class="text-4xl md:text-5xl font-bold text-white mb-6">+1 800 555 5555</div>
+    <div class="flex justify-center gap-7 mb-1">
+      <a href="#"><svg xmlns="http://www.w3.org/2000/svg" class="text-white h-6 w-6" fill="currentColor" viewBox="0 0 24 24"><path d="M17 2H7c-2.8 0-5 2.2-5 5v10c0 2.8 2.2 5 5 5h10c2.8 0 5-2.2 5-5V7c0-2.8-2.2-5-5-5zm-7 15H7v-6h3v6zm-1.5-7a1.5 1.5 0 110-3 1.5 1.5 0 010 3zm8.5 7h-3v-3c0-.8-.7-1.5-1.5-1.5S12 13.2 12 14v3h-3v-6h3v2.2c.5-.7 1.5-1.2 2.5-1.2 1.7 0 3 1.3 3 3v2z"/></svg></a>
+      <a href="#"><svg xmlns="http://www.w3.org/2000/svg" class="text-white h-6 w-6" fill="currentColor" viewBox="0 0 24 24"><path d="M22.162 5.656c-.793.354-1.646.594-2.542.701.913-.548 1.616-1.416 1.948-2.453-.859.509-1.811.877-2.824 1.093C17.646 3.64 16.61 3 15.443 3c-2.221 0-4.026 1.803-4.026 4.026 0 .316.036.624.105.919-3.347-.168-6.317-1.77-8.305-4.202-.347.594-.545 1.288-.545 2.027 0 1.399.713 2.634 1.798 3.359-.663-.02-1.287-.203-1.833-.507v.051c0 1.956 1.393 3.59 3.238 3.96-.339.093-.695.144-1.062.144-.26 0-.509-.025-.753-.072.509 1.591 1.984 2.737 3.733 2.768-1.366 1.072-3.087 1.713-4.957 1.713-.323 0-.642-.019-.956-.057C3.248 19.042 5.669 20 8.299 20c6.542 0 10.13-5.419 10.13-10.13 0-.155-.004-.309-.011-.462.696-.502 1.299-1.128 1.776-1.839z"/></svg></a>
+      <a href="#"><svg xmlns="http://www.w3.org/2000/svg" class="text-white h-6 w-6" fill="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="4"/><circle cx="18" cy="6" r="2"/></svg></a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-4 bg-gray-100 text-gray-600 text-xs w-full">
+    &copy; 2025 Company. All rights reserved.
+  </footer>
+
+</body>
+</html>

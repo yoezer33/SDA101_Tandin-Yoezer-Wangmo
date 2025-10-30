@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hostel Room Maintance Request Form</title>
+</head>
+
+<body>
+  <style>
+   body{
+    front-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #e91ca4;
+    border-radius: 10px;
+    background-color: rgb(250, 150, 250);
+   }
+   h2{
+    color:rgb(18, 132, 86)
+   }
+   label{
+    font-weight:bold;
+    display:block;
+    margin-top: 10px;
+   }
+   input, select, textarea{
+    width:100%;
+    padding:8px;
+    margin-top: 5px;
+    border-radius:5px;
+    border: 1px solid #d2cfcf
+   }
+   input[type="submit"]{
+    background-color: rgb(103, 203, 57);
+    color:black;
+    border:none;
+    cursor: pointer;
+   }
+   </style> 
+    <label for="fullname">Enter your full-name:<br></label>
+    <input type="text" id="fullname" name="fullname"placeholder="Fullname" required><br><br> 
+    <label for="student id">Enter your Student ID:<br></label>
+    <input type="number or text with pattern" id="student id" name="student id"placeholder="student id" required><br><br> 
+    <label for="email">Enter your email:<br></label>
+    <input type="email" id="email" name="email"placeholder="email" required><br><br> 
+    <label for="phonenumber">Enter your mobile-no:<br></label>
+    <input type="tel" id="phonenumber" name="phonenumber"placeholder="phone no:" required><br><br> 
+ 
+
+<h2>Room Information Section</h2>
+<label for="blockname">Block Name:</label>
+  <select id="blockname" name="blockname"placeholder="Block Name">
+    <option value="blocka">Block A</option>
+    <option value="blockb">Block B </option>
+    <option value="blockc">Block C</option>
+    <option value="blockf">Block F</option>
+    <option value="rk">RK</option>
+  </select><br><br>
+  <label for="roomnumber">Enter your room-no:<br></label>
+    <input type="number" id="roomnumber" name="roomnumber"placeholder="roomnumber" required><br><br> 
+    <label for="floornumber">Enter floornumber:<br></label>
+    <input type="number" id="floornumber" name="floornumber"placeholder="Floor-no" required><br><br> 
+<h2>Issue Detail Section</h2>
+<label for="typeofissues">Type of issuses:</label>
+  <select id="typeofissues" name="typeofissues">
+    <option value="electrical">Electrical </option>
+    <option value="plumbing">Plumbing  </option>
+    <option value="funiture">Furniture</option>
+    <option value="infrastructure">Infrastructure</option>
+    <option value="cleaning">Cleaning</option>
+    <option value="other">Others</option>
+  </select><br><br>
+<p>Issue Priority:</p>
+  <label for="radio buttons">Issue Priority</label>
+  <select id="issuespriorty" name="issuespriorty"placeholder="Issue rating">
+    <option value="emergency">Emergency (Immediate attention required) </option>
+    <option value="high">High (Within 24 hours)</option>
+    <option value="medium">Medium (Within 3 days)</option>
+    <option value="low">Low (Within a week)</option>
+</select required><br><br>
+<label for="issuedescription">Issue Description:</label><br>
+  <textarea id="issuedescribtion" name="issuedescribtion" rows="5" cols="50" placeholder="Please describe the issue in detail"></textarea><br><br>
+
+ 
+</body>
+</html>
